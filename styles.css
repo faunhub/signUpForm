@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+@font-face {
+    font-family: 'norsebold';
+    src: url('logofont/norse-bold-webfont.woff2') format('woff2'),
+         url('logofont/norse-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     display: flex;
     font-family: 'Roboto', sans-serif;
@@ -23,7 +31,22 @@ body {
 .imageCaption a {
     color: white;
 }
-
+.logo {
+    position: absolute;
+    top:30%;
+    display: flex;
+    font-size: 40px;
+    font-family: 'norsebold';
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(135, 135, 135);
+    opacity: 60%;
+    color: white;
+    width: 100%;
+}
+.logo img {
+    width: 16%;
+}
 .textContainer {
     display: flex;
     flex-direction: column;
