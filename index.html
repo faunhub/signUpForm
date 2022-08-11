@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="leftImageContainer">
+        <img src="images/treeBG.jpeg" alt="Picture of tall trees.">
+        <div class="logo">ODIN</div>
+       <div class="imageCaption">Photo by <a href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Halie West</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+       </div>
+    </div>
+
+    <div class="textContainer">
+        <div class="titleContent">
+            <h4>This is not a real online service! You know you need something like this
+                in your life to help you realize your deapest dreams. 
+                <br>Sign up <em>now</em> to get started.
+            </h4>
+            <p>You <em>know</em> you want to.</p>
+        </div>
+        <div>
+            <form action="#" method="POST">
+               <div class="formContent">
+                    <h1>Let's do this!</h1>
+                    
+                    <div class="formRow">
+                        <label class="formElement" for="firstName"> First Name
+                            <input type="text" name="firstName" id="firstName">
+                        </label>
+                        
+                        <label class="formElement" for="lastName">Last Name
+                            <input type="text" name ="lastName" id="lastName">
+                        </label>
+                    </div>
+                    <div class="formRow">
+                        <label class="formElement" for="emailAdd">Email
+                            <input type="email" name="emailAdd" id="emailAdd">
+                        </label>
+                        <label class="formElement" for="phoneNo">Phone Number
+                            <input type="tel" name="phoneNo" id="phoneNo">
+                        </label>
+                    </div>
+                    <div class="formRow">
+                        <label class="formElement" for="passW">Password
+                            <input type="password" name="passW" id="passW">
+                        </label>
+                        <label class="formElement" for="passWRepeat">Confirm Password
+                            <input type="password" name="passWRepeat" id="passWRepeat">
+                        </label>
+                    </div>   
+               </div>
+               <button class="btn" type="submit">Create Account</button>
+            </form>
+        </div>
+        <div class="signIn">
+            <p>Already have an account?</p> <span><a href="#">Log in</a></span>   
+        </div>
+    </div>
+</body>
+</html>

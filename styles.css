@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+.leftImageContainer {
+    position: relative;
+    width: 40vw;
+    height: 100vh;
+}
+.leftImageContainer img {
+    height: 100%;
+    width: 100%;
+}
+.imageCaption {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    margin: 1rem;
+    left: 15%;
+}
+.imageCaption a {
+    color: white;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(249, 249, 249);
+}
+.titleContent {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0rem 20rem 0rem 3rem;
+}
+.formContent {
+    background-color: rgb(255, 255, 255);
+    padding: 3rem;
+    box-shadow: 0px 15px 10px -15px #111;
+}
+.formElement {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    color: rgb(78, 78, 78);
+    font-size: 10px;
+    font-weight: bold;
+}
+.formElement input {
+    padding: 0.3rem;
+    width: 20rem;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.formElement input:focus {
+    box-shadow: 5px 10px 10px -10px #111;
+}
+.formRow {
+    display: flex;
+    gap: 2rem;
+    margin: 2rem 0rem 0rem 0rem;
+}
+.btn {
+    background-color: rgb(44, 75, 56);
+    border: none;
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 3rem;
+    
+}
+.signIn {
+    padding: 0rem 0rem 0rem 3rem;
+}
+.signIn p {
+    display: inline;
+}
